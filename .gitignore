@@ -2,7 +2,7 @@
 .venv
 env/
 venv/
-
+artwork/
 # General
 .DS_Store
 .AppleDouble
@@ -30,4 +30,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-generated
+generated/
+checkpoints/
+*.pth
+__pycache__/
+*.pyc
+*.pyo
