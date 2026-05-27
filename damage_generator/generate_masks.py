@@ -108,6 +108,8 @@ def create_random_mask(target_size, df, df_synthetic, df_counts,
         rescale_factor = target_size[0]/2560 if target_size[0] <= target_size[1] else target_size[1]/2560
     else:
         rescale_factor = 1.
+    add_scratches = 0
+
     if not uniform_sample:
 
         _zero = np.array([0])
